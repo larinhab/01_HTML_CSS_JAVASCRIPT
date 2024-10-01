@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    background-color: #121214;
+    padding: 72px 104px;
+}
+
+header {
+    margin-bottom: 63px;
+}
+
+h1 {
+    color:  #02799D;
+    font-family: Mulish;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 900;
+}
+
+header p {
+    color: var(--platform-aliases-ttulos, #E1E1E6);
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40´x;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 48px 60px;
+    place-content: center;
+}
+
+.card {
+
+    border-radius: 8px;
+    border: 2px solid  #323238;
+    background-color: #202024;
+
+    height: 448px;
+    width: 390px;
+    overflow: hidden;
+}
+
+.card h2 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 24px 32px 0;
+}
+
+.card p {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px 32px 32px;
+}
