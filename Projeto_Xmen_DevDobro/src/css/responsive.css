@@ -1,0 +1,36 @@
+@media (max-width: 1120px) {
+    .header .logo {
+        max-width: 190px;
+    }
+    .character-selected {
+        flex-direction: column-reverse;
+        max-width:  430px;
+        margin: 0 auto;
+    }
+    
+    .character-selected .characters {
+        margin-top: 37px;
+    }
+    
+    .character-selected .title {
+        font-size: 15px;
+    }
+
+    .character-selected .list-characters {
+        gap: 9px
+    }
+    .character-selected img {
+        width: 80px;
+    }
+
+    .character-selected .big-character {
+        width: 350px;
+        height: 350px;
+    }
+
+    .character-selected .character-description {
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}

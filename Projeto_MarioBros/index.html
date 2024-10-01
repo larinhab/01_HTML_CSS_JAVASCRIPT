@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/new-super-mario-font-u" rel="stylesheet">
+                
+    
+    <title> Mario Bros Project </title>
+    <link rel="stylesheet" href="src/css/style.css">
+    
+</head>
+
+    <body>
+
+        <header class="header">
+            <img class="logo" src="src/assets/logo-mb.png" alt="Logo MarioBros">
+        </header>
+<main class="selection">
+    <section class="characters">
+        <h1 class="title"> Selecione um Personagem </h1>
+        <ul class="list-characters">
+            <li class="character selected" id="mario" data-name="Mario" data-description="Herói do Reino dos Cogumelos, A principal habilidade do personagem consiste em consumir itens para alterar sua forma. Por exemplo, ele consegue aumentar de tamanho ao comer certos cogumelos e atirar bolas de fogo ao coletar flores especiais">
+                 <img src="/src/assets/card-mario.png" alt=" Imagem do Personagem Mario"/>
+            </li>
+            <li class="character" id="luigi" data-name="Luigi" data-description="Irmão de Mario, esse encanador de roupa verde se diferencia por ter o pulo mais alto entre todos os personagens. ">
+                <img src="src/assets/card-luigi.png" alt="Imagem do Personagem Luigi"/>
+            </li>
+            <li class="character" id="princesa-peach" data-name="Princesa Peach" data-description="Originalmente conhecida como Princesa Toadstool, a realeza do Reino dos Cogumelos recebeu seu atual nome com o passar dos anos. A personagem começou como uma donzela em perigo mas hoje já possui seu poder especial de flutuar.">
+                <img src="src/assets/card-princesa-peach.png" alt="Imagem da Personagem Princesa Peach"/>
+            </li>
+            <li class="character" id="toad" data-name="Toad" data-description="Lacaio da Princesa Peach, utiliza super força para dizimar os inimigos.">
+                <img src="src/assets/card-toad.png" alt="Imagem do Personagem Toad"/>
+            </li>
+            <li class="character" id="puro-osso" data-name="Puro Osso" data-description="Apesar de timido quando enfurecido Puro-osso é capaz de cuspir fogo e sua habilidade principal é conseguir se desmontar e montar novamente.">
+                <img src="src/assets/card-puro-osso.png" alt="Imagem do Personagem Puro Osso">
+            </li>
+            <li class="character" id="wario" data-name="Wario" data-description="Conhecido por Mario do multi-verso, sempre entra em aventuras para conquistar dinheiro, jogando bombas em todos que entram em seu caminho.">
+                 <img src="src/assets/card-wario.png" alt="Imagem da Personagem Wario">
+            </li>
+            <li class="character" id="yoshi" data-name="Yoshi" data-description="Yoshi é um dinossauro que existe desde os anos 90 e tornou-se conhecido pelos pés ligeiros e pela língua longa e flexível.">
+                <img src="src/assets/card-yoshi.png" alt="Imagem da Personagem Yoshi">
+            </li>
+            <li class="character" id="princesa-daisy" data-name="Princesa Daisy" data-description="Também conhecida como princesa das Margaridas, do reino de Sarasaland, tem habilidade de criar flores venenosas e enviar aos seus inimigos.">
+                <img src="src/assets/card-princesa-daisy.png" alt="Imagem do Personagem  Princesa Daisy">
+            </li>
+            <li class="character" id="waluigi" data-name="Waluigi" data-description="Irmão de Wario, vive em um palacio cheio de tesouros roubados, hipnotiza seus inimigos e também cria as melhores armadilhas.">
+                <img src="src/assets/card-waluigi.png" alt="Imagem do Personagem Bad Mushroom">
+            </li>
+             <li class="character" id="toadette" data-name="ToadEtte" data-description="Toadette é a parceria de Toad e ao lado dele consegue eliminar os inimigos com super força.">
+                 <img src="src/assets/card-toadette.png" alt="Imagem do Personagem ToadEtte">
+            </li>
+            <li class="character" id="princesa-rosalina" data-name="Princesa Rosalina" data-description="Rainha das Lumas, é mãe e quando sua energia é restaurada para o observatório cometa ela pode fazer um grande campo de força transformando-o em uma nave espacial. Além disso, ela é protegida por um campo de força que se assemelha a uma bolha. ">
+                <img src="src/assets/card-rosalina.png" alt="Imagem do Personagem Margarida">
+            </li>
+            <li class="character" id="bowser" data-name="Bowser" data-description="Bowser é uma espécie de tartaruga dinossauro, sendo o principal vilão, tem uma frota de navios piratas voadores, um veículo de palhaço com hélices e uma horda interminável de “Koopa Troopas”, “Goombas” e muito mais.">
+                <img src="src/assets/card-bowser.png" alt="Imagem do Bowser">
+            </li>
+    
+        </ul>
+    </section>
+  
+    <section class="character-selected">
+        <img class="big-character" src="src/assets/select-mario.png" alt="Personagem Selecionado: Mario">
+         <div class="Informações do Personagem">
+            <h2 class="charactername" id="character-name">Mario</h2>
+            <p class="character-description" id="description">Herói do Reino dos Cogumelos, A principal habilidade do personagem consiste em consumir itens para alterar sua forma. Por exemplo, ele consegue aumentar de tamanho ao comer certos cogumelos e atirar bolas de fogo ao coletar flores especiais.</p>
+         </div>
+        </section>
+        
+   
+
+</main>
+    <audio id="background-theme" autoplay="autoplay"  preload="auto" lop controls="controls">
+        <source src="/src/assets/audio/Super Mario Bros. Theme Song.mp3" type="audio/mp3" />
+    </audio>
+
+    <script src="/src/js/index.js"></script>
+
+</body>
+</html>
